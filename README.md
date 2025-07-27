@@ -38,4 +38,4 @@ This project aims to classify harmful brain activity patterns (Seizure, LPD, GPD
 - Python, PyTorch, scikit-learn, Matplotlib, Seaborn
 
 ## 📷 Grad-CAM Visualization
-![Grad-CAM](./assets/images/gradcam.png)
+![Grad-CAM](./assets/gradcam.png)
