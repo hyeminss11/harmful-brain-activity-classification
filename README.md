@@ -9,13 +9,15 @@ This project aims to classify harmful brain activity patterns (Seizure, LPD, GPD
 
 ## 👥 Team Members
 - Team GM2 (5 members)  
-- **My role**: Deep learning model implementation & analysis using **ResNet18**  
-  → Proposed and applied Grad-CAM to enhance model interpretability
-  → Attempted Base CNN implementation (discarded due to insufficient accuracy)
+- **My role**:  
+  - Implemented **ResNet18** for EEG classification  
+  - Proposed and applied **Grad-CAM** for explainability  
+  - Also tested a base **2D CNN**, which was discarded due to low performance
   
 ## 📂 Dataset
-- HMS - Harmful Brain Activity Classification (Kaggle) (Needs to be downloaded from the above link)
-- Label: One of five harmful activity types (or “Others” excluded)
+- Source: [Kaggle - HMS Harmful Brain Activity Classification](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)
+- EEG segments: 50 seconds each
+- Labels: Five harmful activity classes (excluding “Others”)
 
 ## ⚙️ Preprocessing
 - Montage transformation of raw EEG signals
@@ -30,12 +32,17 @@ This project aims to classify harmful brain activity patterns (Seizure, LPD, GPD
 - Vision Transformer (ViT)
 - Ensemble of the above three
 
-**📈 Result:**  
-- Ensemble Accuracy: ~81%  
-- ResNet18 Accuracy: ~75%
+## 📈 Performance
+
+| Model        | Accuracy |
+|--------------|----------|
+| ResNet18     | ~75%     |
+| Ensemble     | ~81%     |
 
 ## 🛠 Tech Stack
 - Python, PyTorch, scikit-learn, Matplotlib, Seaborn
 
 ## 📷 Grad-CAM Visualization
-![Grad-CAM](./assets/images/gradcam.png)
+<p align="center">
+  <img src="./assets/gradcam.png" alt="Grad-CAM" width="400">
+</p>

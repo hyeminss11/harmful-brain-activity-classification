@@ -6,4 +6,6 @@ The final model achieved **75% test accuracy**, and I also applied **Grad-CAM** 
 
 Among the implemented models, **ResNet18** showed the best performance. Below is the confusion matrix of the final model.
 
-(./assets/images/2dCNN_scalogram_bp_cm.png)
+<p align="center">
+  <img src="./assets/ResNet18_scalogram_bp_cm.png" alt="ResNet18" width="400">
+</p>
