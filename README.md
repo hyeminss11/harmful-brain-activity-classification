@@ -1,7 +1,7 @@
 # Harmful Brain Activity Classification
 
 **Multi-class EEG Classification using Deep Learning**  
-[🔗 Kaggle Competition](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)  
+🔗 [Kaggle Competition](https://www.kaggle.com/competitions/hms-harmful-brain-activity-classification)  
 📌 Developed as part of an official university team project (Team GM2)
 
 ## 🧠 Overview
@@ -10,11 +10,11 @@ This project aims to classify harmful brain activity patterns (Seizure, LPD, GPD
 ## 👥 Team Members
 - Team GM2 (5 members)  
 - **My role**: Deep learning model implementation & analysis using **ResNet18**  
-  → Suggested and implemented **Grad-CAM** for model interpretability
+  → Proposed and applied Grad-CAM to enhance model interpretability
+  → Attempted Base CNN implementation (discarded due to insufficient accuracy)
   
 ## 📂 Dataset
-- HMS - Harmful Brain Activity Classification (Kaggle)
-- EEG recordings in 50-second segments
+- HMS - Harmful Brain Activity Classification (Kaggle) (Needs to be downloaded from the above link)
 - Label: One of five harmful activity types (or “Others” excluded)
 
 ## ⚙️ Preprocessing
@@ -35,7 +35,7 @@ This project aims to classify harmful brain activity patterns (Seizure, LPD, GPD
 - ResNet18 Accuracy: ~75%
 
 ## 🛠 Tech Stack
-- Python, PyTorch, scikit-learn, Matplotlib
+- Python, PyTorch, scikit-learn, Matplotlib, Seaborn
 
-## 📷 Grad-CAM Visualization (my contribution)
+## 📷 Grad-CAM Visualization
 ![Grad-CAM](./assets/images/gradcam.png)
